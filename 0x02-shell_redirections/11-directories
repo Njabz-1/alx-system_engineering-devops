@@ -1,1 +1,2 @@
 #!/bin/bash
+ls -l | grep ^d | grep -v "^d.*\.[^\.]\{1,\}$" | wc -l
