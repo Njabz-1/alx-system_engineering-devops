@@ -1,0 +1,2 @@
+#!/bin/bash
+IFS=':' read -ra dirs <<< /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin; echo Number of directories in PATH: 0 
