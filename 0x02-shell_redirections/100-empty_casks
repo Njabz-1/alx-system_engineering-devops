@@ -1,0 +1,4 @@
+#!/bin/bash
+find . -type f -empty -o -type d -empty -print | while read file; do echo "${file#./}"; done
+
+
