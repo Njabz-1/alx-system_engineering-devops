@@ -1,2 +1,2 @@
 #!/bin/bash
-env | cut -f1 -d= | sort
+env | cut -f1,2 -d= | sort
